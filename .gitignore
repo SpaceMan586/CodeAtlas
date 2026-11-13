@@ -1,0 +1,53 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node dependencies and test artifacts
+node_modules/
+coverage/
+playwright-report/
+test-results/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.flaskenv
+
+# Local IDE settings
+.idea/
+.vscode/
+
+# Operating system temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# SQLite temporary journal and shared-memory files
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Generated CodeAtlas analysis data
+/.codeatlas/
+/analysis-output/
+/data/generated/
